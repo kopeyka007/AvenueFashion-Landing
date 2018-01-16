@@ -1,0 +1,108 @@
+/*container-fluid*/
+.header{
+    height:42px;
+    background-color: #333333;
+    color: #898989;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.header select{
+  background-color: #333333;
+    border: none;
+    cursor: pointer;
+    float:left;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+
+}
+.header option{
+    background-color:#333333 ;
+    border: none;
+}
+.currency-wrapper{
+    display:flex;
+    padding:0;
+    height:42px;
+    line-height:42px;
+    align-items: center;
+}
+.sign-in{
+    line-height:42px;
+
+}
+.busket{
+    line-height:42px;
+}
+
+/*end container-fluid*/
+
+/*main-baner*/
+.main-baner{
+padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.menu{
+    height:90px;
+    line-height: 90px;
+    font-size: 22px;
+    color:black;
+    font-family:'Montserrat', sans-serif;
+
+}
+.item{
+    display: inline-block;
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    height:30px;
+    width:100%;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8F8F8;
+    border:1px solid #989898;
+    color:#989898
+
+}
+button{
+    width:300px;
+    border:solid 1px #737373;
+    height: 50px;
+    background-color: #F8F8F8;
+}
+.main-text{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+}
+.button-wrapper{
+
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    bottom:30px;
+}
+/*end main-baner*/
+
+/*pricing*/
+.pricing{
+    border-top:1px solid #F8F8F8;
+    margin-top:60px;
+}
+.grid-item {
+    width: 200px;
+
+}
+
+.grid-item--width2 {
+    width: 400px;
+}
+
+/*end pricing*/
+
